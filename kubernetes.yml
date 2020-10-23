@@ -68,8 +68,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels:
-      app: master
+    app: master
   template:
     metadata:
       labels:
